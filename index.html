@@ -8,29 +8,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="container">
     <form>
         <div class="row">
-            <label>Name<span style="color: red;">*</span>
-            </label>
+            <strong><label>Name<span style="color: red;">*</span>
+            </label></strong>
         <br>
-            <div class="col">
+            <div class="col-auto">
         
-        <input type="text" id="name">
-        <p>First</p>
+        <input type="text" id="name"><br>
+        <span>First</span>
     </div>
-    <div class="col ml" >
-        <input type="text">
-        <p>Last</p>
+    <div class="col" >
+        <input type="text"><br>
+        <span>Last</span>
     </div>
-    </div>
+    <div class=" row py-3">
+        <strong><label >Email<span style="color: red;">*</span>
+        </label></strong>
+        <input class="mx-2" type="email"  style="width: 410px;">
+      </div>
     <div class="row">
-        <label for="email">Email<span style="color: red;">*</span>
-        </label>
-        <input type="text" id="email">
-
-    </div>
-    <div class="row">
-        <h6>Your Experience<span style="color: red;">*</span></h6>
+        <strong><h6>Your Experience<span style="color: red;">*</span></h6></strong>
         <div class="d-flex">
         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
@@ -38,80 +37,112 @@
         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
     </div>
+    <div class="row mt-2">
     <p>Overall,how would you rate your experience with us?</p>
     </div>
     <div class="row">
-        <h6>How satisfied are you with<span style="color: red;">*</span></h6>
+        <strong><h6>How satisfied are you with<span style="color: red;">*</span></h6></strong>
         <div>
+<div class="row text-center">
 
-            <label for="">Purchase</label>
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-        </div>
-        <div>
+    <div class="col-2"></div>
+    <div class="col-2">very Unsatisfied</div>
+    <div class="col-2">Unsatisfied</div>
+    <div class="col-2">Neutral</div>
+    <div class="col-2">Satisfied</div>
+    <div class="col-2">Very Satisfied</div>
+</div>
+<div class="row text-center bg-body-secondary py-2">
 
-            <label for="">service</label>
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-        </div>
-        <div>
+    <div class="col-2"><label for="">Purchase</label></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+</div>
+            
 
-            <label for="">Company overall</label>
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
+           
+<div class="row text-center py-2">
+
+    <div class="col-2"><label for="">Service</label></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+</div>
+<div class="row text-center bg-body-secondary py-2">
+
+    <div class="col-2"><label for="">Company Overall</label></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+    <div class="col-2"><input type="radio"></div>
+</div>
+<br>
+<div class="row">
+    <strong><h6>How likely are you to<span style="color: red;">*</span></h6></strong>
+    <div>
+        <div class="row text-center ">
+
+            <div class="col-2"></div>
+            <div class="col-2 ">Very Unlikely</div>
+            <div class="col-2 ">Unlikely</div>
+            <div class="col-2 ">Neutral</div>
+            <div class="col-2 ">Likely</div>
+            <div class="col-2 ">Very Likely</div>
         </div>
+
+<div class="row text-center bg-body-secondary py-2">
+
+        <div class="col-2"><label for="">Buy from us again</label></div>
+        <div class="col-2 "><input type="radio"></div>
+        <div class="col-2 "><input type="radio"></div>
+        <div class="col-2 "><input type="radio"></div>
+        <div class="col-2 "><input type="radio"></div>
+        <div class="col-2 "><input type="radio"></div>
+    </div>
+    <div class="row text-center py-2">
+
+        <div class="col-2"><label for="">Recommend our product to others</label></div>
+        <div class="col-2 "><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+    </div>
+    <div class="row text-center bg-body-secondary py-2">
+
+        <div class="col-2"><label for="">Recommend our company to others</label></div>
+        <div class="col-2 "><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+        <div class="col-2"><input type="radio"></div>
+    </div>
 
     </div>
-    <div class="row">
-        <h6>How likely are you to<span style="color: red;">*</span></h6>
-        <div>
-
-            <label for="">Buy from us again</label>
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-        </div>
-        <div>
-
-            <label for="">Recommend our product to others</label>
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-        </div>
-        <div>
-
-            <label for="">Recommend our company to others</label>
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
-        </div>
-
+    <br>
+    <br>
+    <div class="row mt-3">
+    <strong> <h6>Additional comments or suggestions</h6></strong>
     </div>
-
-    <div class="row">
-        <h6>Additional comments or suggestions</h6>
+    <div class="row ms-1">
         <textarea name="" id="" cols="10" rows="5"></textarea>
     </div>
 <br>
-    <div>
-        <input type="button" value="submit">
+<br>
+    <div class="mt-2">
+        <input type="button" value="Submit">
     </div>
     </form>
+    </div>
+
+
+    
 
 
     
